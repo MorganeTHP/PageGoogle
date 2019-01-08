@@ -39,7 +39,13 @@ section div input{
 	border-radius: 3px;
 	opacity: 0.5;
 	margin-bottom: 40px;
+	box-shadow: 1px 1px 3px grey;
 }
+
+#recherche:hover{
+	box-shadow: 4px 4px 10px grey;
+}
+
 header
 {
 	display:flex;
@@ -114,7 +120,7 @@ section div input:hover{
 	border: solid red 0px;
 }
 
-.BigToSmall{
+#Logo{
 	width: 350px;
 }
 
